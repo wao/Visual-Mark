@@ -32,7 +32,7 @@ endif
 nnoremap <silent> <script> <Plug>Vm_toggle_sign	:call Vm_toggle_sign()<cr>
 
 if !hasmapto('<Plug>Vm_goto_next_sign')
-  map <unique> <F2> <Plug>Vm_goto_next_sign
+  " map <unique> <F2> <Plug>Vm_goto_next_sign
 endif
 nnoremap <silent> <script> <Plug>Vm_goto_next_sign	:call Vm_goto_next_sign()<cr>
 
